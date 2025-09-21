@@ -6,15 +6,13 @@ import { TestimonialsSection } from "./components/testimonials-section";
 import { ProcessSection } from "./components/process-section";
 import { ContactSection } from "./components/contact-section";
 import { Footer } from "./components/footer";
-import {WhatsAppButton} from "./components/whatsappButton";
+import { WhatsAppButton } from "./components/whatsapp-button";
 
 export default function App() {
   return (
     <div className="min-h-screen">
-
       <Navigation />
       <main>
-     
         <div id="hero">
           <HeroSection />
         </div>
@@ -33,10 +31,9 @@ export default function App() {
         <div id="contact">
           <ContactSection />
         </div>
-         
       </main>
       <Footer />
-        <WhatsAppButton />
+      <WhatsAppButton />
     </div>
   );
 }
