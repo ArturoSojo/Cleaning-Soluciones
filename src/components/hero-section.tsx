@@ -17,7 +17,7 @@ export function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-4xl lg:text-6xl font-bold text-gray-800 mb-6"
+              className="font-heading text-4xl lg:text-6xl font-extrabold text-gray-800 mb-6 leading-tight"
             >
               Tu Hogar Siempre
               <span className="text-blue-600 block">Impecable</span>
@@ -27,11 +27,12 @@ export function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="text-xl text-gray-600 mb-8 max-w-lg mx-auto lg:mx-0"
+              className="font-body text-lg lg:text-xl text-gray-600 mb-8 max-w-lg mx-auto lg:mx-0 leading-relaxed"
             >
               Servicios profesionales de limpieza para casas y apartamentos en Orlando, FL.
               Calidad garantizada y precios competitivos.
             </motion.p>
+
 
             <motion.div
               initial={{ opacity: 0, y: 20 }}
