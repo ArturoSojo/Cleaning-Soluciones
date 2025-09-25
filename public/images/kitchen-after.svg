@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f4fbff" />
+      <stop offset="100%" stop-color="#d5f0ff" />
+    </linearGradient>
+    <linearGradient id="counter" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#f0f6ff" />
+      <stop offset="100%" stop-color="#c2dfff" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)" />
+  <g opacity="0.95">
+    <rect x="80" y="120" width="640" height="200" rx="18" fill="#ffffff" stroke="#c8e6ff" stroke-width="6" />
+    <rect x="120" y="160" width="120" height="140" rx="12" fill="#f6fcff" stroke="#cfe8ff" stroke-width="4" />
+    <rect x="280" y="160" width="160" height="140" rx="12" fill="#f4fbff" stroke="#cfe8ff" stroke-width="4" />
+    <rect x="480" y="160" width="200" height="140" rx="12" fill="#f6fcff" stroke="#cfe8ff" stroke-width="4" />
+  </g>
+  <rect x="80" y="320" width="640" height="140" rx="16" fill="url(#counter)" stroke="#b7d4ff" stroke-width="5" />
+  <g>
+    <path d="M150 350h120v32h-120z" fill="#ffffff" opacity="0.75" />
+    <path d="M320 350h120v32h-120z" fill="#ffffff" opacity="0.75" />
+    <path d="M500 350h160v32h-160z" fill="#ffffff" opacity="0.75" />
+  </g>
+  <g fill="#68c3ff" opacity="0.7">
+    <circle cx="160" cy="230" r="12" />
+    <circle cx="220" cy="210" r="10" />
+    <circle cx="320" cy="240" r="14" />
+    <circle cx="420" cy="200" r="12" />
+    <circle cx="520" cy="245" r="16" />
+    <circle cx="640" cy="215" r="11" />
+  </g>
+  <g stroke="#9adcfb" stroke-width="8" stroke-linecap="round" opacity="0.7">
+    <line x1="180" y1="440" x2="220" y2="400" />
+    <line x1="280" y1="440" x2="320" y2="400" />
+    <line x1="380" y1="440" x2="420" y2="400" />
+    <line x1="480" y1="440" x2="520" y2="400" />
+    <line x1="580" y1="440" x2="620" y2="400" />
+  </g>
+  <text x="50%" y="70" font-family="'Poppins', sans-serif" font-size="48" fill="#1f5d95" text-anchor="middle">Después - Cocina</text>
+  <text x="50%" y="520" font-family="'Poppins', sans-serif" font-size="26" fill="#1c4f7a" text-anchor="middle">Superficies relucientes, desinfectadas y organizadas.</text>
+</svg>

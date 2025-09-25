@@ -49,14 +49,21 @@ export function Navigation() {
             >
               Servicios
             </a>
-            <a 
+            <a
               href="#"
               onClick={() => scrollToSection('benefits')}
               className="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer"
             >
               Beneficios
             </a>
-            <a 
+            <a
+              href="#results"
+              onClick={() => scrollToSection('results')}
+              className="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer"
+            >
+              Resultados
+            </a>
+            <a
               href="#"
               onClick={() => scrollToSection('testimonials')}
               className="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer"
@@ -119,14 +126,21 @@ export function Navigation() {
               >
                 Servicios
               </a>
-              <a 
+              <a
                 href="#"
                 onClick={() => scrollToSection('benefits')}
                 className="block px-4 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors cursor-pointer"
               >
                 Beneficios
               </a>
-              <a 
+              <a
+                href="#results"
+                onClick={() => scrollToSection('results')}
+                className="block px-4 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors cursor-pointer"
+              >
+                Resultados
+              </a>
+              <a
                 href="#"
                 onClick={() => scrollToSection('testimonials')}
                 className="block px-4 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors cursor-pointer"
