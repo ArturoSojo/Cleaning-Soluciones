@@ -2,6 +2,7 @@ import { Navigation } from "./components/navigation";
 import { HeroSection } from "./components/hero-section";
 import { ServicesSection } from "./components/services-section";
 import { BenefitsSection } from "./components/benefits-section";
+import { GallerySection } from "./components/gallery-section";
 import { TestimonialsSection } from "./components/testimonials-section";
 import { ProcessSection } from "./components/process-section";
 import { ContactSection } from "./components/contact-section";
@@ -21,6 +22,9 @@ export default function App() {
         </div>
         <div id="benefits">
           <BenefitsSection />
+        </div>
+        <div id="gallery">
+          <GallerySection />
         </div>
         <div id="testimonials">
           <TestimonialsSection />
