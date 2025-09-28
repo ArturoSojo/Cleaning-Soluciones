@@ -5,40 +5,40 @@ import { Home, Building2, Sparkles, ShieldCheck, Clock, Star } from "lucide-reac
 const services = [
   {
     icon: Home,
-    title: "Limpieza de Casas",
-    description: "Servicio completo de limpieza para tu hogar, incluyendo todas las habitaciones, cocina y baños.",
-    features: ["Aspirado y trapeado", "Limpieza de baños", "Cocina completa", "Dormitorios y salas"]
+    title: "House Cleaning",
+    description: "Comprehensive cleaning for your home, covering every room, the kitchen, and each bathroom.",
+    features: ["Vacuuming and mopping", "Bathroom sanitizing", "Complete kitchen care", "Bedrooms and living areas"],
   },
   {
     icon: Building2,
-    title: "Limpieza de Apartamentos",
-    description: "Especialistas en apartamentos de Orlando, adaptándonos a espacios más compactos.",
-    features: ["Optimizado para espacios pequeños", "Limpieza eficiente", "Cuidado de muebles", "Organización incluida"]
+    title: "Apartment Cleaning",
+    description: "Specialized care for Orlando apartments with solutions designed for compact spaces.",
+    features: ["Tailored for smaller floor plans", "Efficient cleaning routines", "Furniture and surface care", "Organized finishing touches"],
   },
   {
     icon: Sparkles,
-    title: "Limpieza Profunda",
-    description: "Servicio intensivo que deja tu hogar completamente renovado y desinfectado.",
-    features: ["Desinfección completa", "Limpieza de ventanas", "Electrodomésticos", "Áreas difíciles"]
+    title: "Deep Cleaning",
+    description: "Detailed service that refreshes and disinfects your home from top to bottom.",
+    features: ["Whole-home disinfection", "Interior window detailing", "Appliance cleaning", "Hard-to-reach areas"],
   },
   {
     icon: ShieldCheck,
-    title: "Limpieza Regular",
-    description: "Mantén tu hogar siempre limpio con nuestro servicio de limpieza programada.",
-    features: ["Horarios flexibles", "Personal capacitado", "Productos eco-friendly", "Garantía de calidad"]
+    title: "Recurring Cleaning",
+    description: "Keep your home consistently fresh with a schedule built around your lifestyle.",
+    features: ["Flexible scheduling", "Trusted cleaning specialists", "Eco-friendly products", "Quality guarantee"],
   },
   {
     icon: Clock,
-    title: "Limpieza Express",
-    description: "Servicio rápido para emergencias o eventos especiales en el mismo día.",
-    features: ["Disponibilidad rápida", "Equipos especializados", "Resultados garantizados", "Precios competitivos"]
+    title: "Express Cleaning",
+    description: "Quick-turn service for same-day needs before events or surprise visits.",
+    features: ["Rapid response", "Dedicated cleaning teams", "Reliable results", "Competitive pricing"],
   },
   {
     icon: Star,
-    title: "Limpieza Post-Construcción",
-    description: "Eliminamos todo el polvo y residuos después de remodelaciones o construcciones.",
-    features: ["Remoción de escombros", "Limpieza especializada", "Equipos profesionales", "Resultado impecable"]
-  }
+    title: "Post-Construction Cleaning",
+    description: "Remove dust and debris after renovations or new builds with precision.",
+    features: ["Debris removal", "Specialized equipment", "Thorough surface care", "Move-in ready finish"],
+  },
 ];
 
 export function ServicesSection() {
@@ -53,11 +53,10 @@ export function ServicesSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl font-bold text-gray-800 mb-4">
-            Nuestros Servicios
+            Our Services
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Ofrecemos una amplia gama de servicios de limpieza profesional para satisfacer 
-            todas tus necesidades en Orlando, FL.
+            Explore a wide range of professional cleaning solutions tailored to every home in Orlando, FL.
           </p>
         </motion.div>
 

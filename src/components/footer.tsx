@@ -20,12 +20,12 @@ export function Footer() {
               Cleaning Soluciones LLC
             </h3>
             <p className="text-gray-300 mb-4 leading-relaxed">
-              Tu empresa de confianza para servicios de limpieza profesional en Orlando, FL. 
-              Comprometidos con la excelencia y tu satisfacción.
+              Your trusted partner for professional cleaning services in Orlando, FL.
+              Committed to exceptional quality and complete client satisfaction.
             </p>
             <div className="flex items-center space-x-2">
               <Star className="w-5 h-5 text-yellow-400 fill-current" />
-              <span className="text-sm text-gray-300">Calificación 4.9/5 estrellas</span>
+              <span className="text-sm text-gray-300">Rating 4.9/5 stars</span>
             </div>
           </motion.div>
 
@@ -36,14 +36,14 @@ export function Footer() {
             transition={{ duration: 0.6, delay: 0.1 }}
             viewport={{ once: true }}
           >
-            <h4 className="text-lg font-semibold mb-4">Servicios</h4>
+            <h4 className="text-lg font-semibold mb-4">Services</h4>
             <ul className="space-y-2 text-gray-300">
-              <li className="hover:text-blue-400 transition-colors cursor-pointer">Limpieza de Casas</li>
-              <li className="hover:text-blue-400 transition-colors cursor-pointer">Limpieza de Apartamentos</li>
-              <li className="hover:text-blue-400 transition-colors cursor-pointer">Limpieza Profunda</li>
-              <li className="hover:text-blue-400 transition-colors cursor-pointer">Limpieza Regular</li>
-              <li className="hover:text-blue-400 transition-colors cursor-pointer">Limpieza Express</li>
-              <li className="hover:text-blue-400 transition-colors cursor-pointer">Post-Construcción</li>
+              <li className="hover:text-blue-400 transition-colors cursor-pointer">House Cleaning</li>
+              <li className="hover:text-blue-400 transition-colors cursor-pointer">Apartment Cleaning</li>
+              <li className="hover:text-blue-400 transition-colors cursor-pointer">Deep Cleaning</li>
+              <li className="hover:text-blue-400 transition-colors cursor-pointer">Recurring Cleaning</li>
+              <li className="hover:text-blue-400 transition-colors cursor-pointer">Express Cleaning</li>
+              <li className="hover:text-blue-400 transition-colors cursor-pointer">Post-Construction</li>
             </ul>
           </motion.div>
 
@@ -54,7 +54,7 @@ export function Footer() {
             transition={{ duration: 0.6, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            <h4 className="text-lg font-semibold mb-4">Contacto</h4>
+            <h4 className="text-lg font-semibold mb-4">Contact</h4>
             <div className="space-y-3 text-gray-300">
               <div className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 text-blue-400 flex-shrink-0" />
@@ -85,7 +85,7 @@ export function Footer() {
             transition={{ duration: 0.6, delay: 0.3 }}
             viewport={{ once: true }}
           >
-            <h4 className="text-lg font-semibold mb-4">Áreas de Servicio</h4>
+            <h4 className="text-lg font-semibold mb-4">Service Areas</h4>
             <ul className="space-y-2 text-gray-300 text-sm mb-6">
               <li>Orlando</li>
               <li>Winter Park</li>
@@ -94,12 +94,12 @@ export function Footer() {
               <li>College Park</li>
               <li>Downtown Orlando</li>
             </ul>
-            
-            <h4 className="text-lg font-semibold mb-2">Horarios</h4>
+
+            <h4 className="text-lg font-semibold mb-2">Hours</h4>
             <div className="text-gray-300 text-sm">
-              <p>Lun - Vie: 8:00 AM - 6:00 PM</p>
-              <p>Sáb: 9:00 AM - 4:00 PM</p>
-              <p>Dom: Por cita</p>
+              <p>Mon - Fri: 8:00 AM - 6:00 PM</p>
+              <p>Sat: 9:00 AM - 4:00 PM</p>
+              <p>Sun: By appointment</p>
             </div>
           </motion.div>
         </div>
@@ -114,15 +114,15 @@ export function Footer() {
           className="flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm"
         >
           <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-6">
-            <p>&copy; {currentYear} Cleaning Soluciones LLC. Todos los derechos reservados.</p>
+            <p>&copy; {currentYear} Cleaning Soluciones LLC. All rights reserved.</p>
             <div className="flex space-x-4">
-              <span className="hover:text-blue-400 transition-colors cursor-pointer">Política de Privacidad</span>
-              <span className="hover:text-blue-400 transition-colors cursor-pointer">Términos de Servicio</span>
+              <span className="hover:text-blue-400 transition-colors cursor-pointer">Privacy Policy</span>
+              <span className="hover:text-blue-400 transition-colors cursor-pointer">Terms of Service</span>
             </div>
           </div>
-          
+
           <div className="flex items-center space-x-4 mt-4 md:mt-0">
-            <span className="text-xs">Síguenos:</span>
+            <span className="text-xs">Follow us:</span>
             <motion.a
               whileHover={{ scale: 1.1 }}
               href="#"
@@ -150,13 +150,13 @@ export function Footer() {
         >
           <div className="text-xs text-gray-500 text-center space-y-2">
             <p>
-              <strong>Licencia:</strong> Cleaning Soluciones LLC está debidamente licenciada y asegurada en el estado de Florida.
+              <strong>License:</strong> Cleaning Soluciones LLC is fully licensed and insured in the state of Florida.
             </p>
             <p>
-              <strong>Seguros:</strong> Contamos con seguro de responsabilidad civil y bonos para tu tranquilidad.
+              <strong>Insurance:</strong> We carry liability coverage and bonding for your peace of mind.
             </p>
             <p>
-              <strong>Certificaciones:</strong> Personal capacitado en técnicas profesionales de limpieza y uso de productos eco-friendly.
+              <strong>Certifications:</strong> Our team is trained in professional cleaning techniques and eco-friendly product use.
             </p>
           </div>
         </motion.div>

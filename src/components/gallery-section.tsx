@@ -25,8 +25,8 @@ const rawImages = [
 
 const galleryImages = rawImages.map((fileName, index) => ({
   src: encodeURI(`/images/${fileName}`),
-  alt: `Resultado de limpieza ${index + 1}`,
-  label: `Limpieza profesional #${index + 1}`,
+  alt: `Cleaning result ${index + 1}`,
+  label: `Professional cleaning #${index + 1}`,
 }));
 
 export function GallerySection() {
@@ -41,14 +41,14 @@ export function GallerySection() {
           className="text-center mb-16"
         >
           <span className="text-sm font-semibold uppercase tracking-widest text-blue-600">
-            Nuestro Trabajo
+            Our Work
           </span>
           <h2 className="mt-4 text-4xl font-bold text-gray-800">
-            Galería de Limpiezas Realizadas
+            Completed Cleaning Projects
           </h2>
           <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
-            Cada espacio es tratado con atención al detalle para entregar resultados impecables.
-            Descubre algunos de los proyectos que hemos realizado recientemente.
+            Every space receives meticulous attention to detail for spotless results.
+            Discover a selection of recent projects completed by our team.
           </p>
         </motion.div>
 

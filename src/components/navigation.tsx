@@ -7,7 +7,7 @@ export function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
 
   const scrollToSection = (sectionId: string) => {
-    document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth' });
+    document.getElementById(sectionId)?.scrollIntoView({ behavior: "smooth" });
     setIsOpen(false);
   };
 
@@ -35,40 +35,40 @@ export function Navigation() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <a 
+            <a
               href="#"
-              onClick={() => scrollToSection('hero')}
+              onClick={() => scrollToSection("hero")}
               className="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer"
             >
-              Inicio
+              Home
             </a>
-            <a 
+            <a
               href="#services"
-              onClick={() => scrollToSection('services')}
+              onClick={() => scrollToSection("services")}
               className="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer"
             >
-              Servicios
+              Services
             </a>
-            <a 
+            <a
               href="#"
-              onClick={() => scrollToSection('benefits')}
+              onClick={() => scrollToSection("benefits")}
               className="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer"
             >
-              Beneficios
+              Benefits
             </a>
-            <a 
+            <a
               href="#"
-              onClick={() => scrollToSection('testimonials')}
+              onClick={() => scrollToSection("testimonials")}
               className="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer"
             >
-              Testimonios
+              Testimonials
             </a>
-            <a 
+            <a
               href="#contact"
-              onClick={() => scrollToSection('contact')}
+              onClick={() => scrollToSection("contact")}
               className="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer"
             >
-              Contacto
+              Contact
             </a>
           </div>
 
@@ -78,11 +78,11 @@ export function Navigation() {
               <Phone className="w-4 h-4 mr-2" />
               <span className="font-semibold">(407) 770-7272</span>
             </a>
-            <Button 
-              onClick={() => scrollToSection('contact')}
+            <Button
+              onClick={() => scrollToSection("contact")}
               className="bg-blue-600 hover:bg-blue-700 text-white"
             >
-              Cotización Gratis
+              Free Quote
             </Button>
           </div>
 
@@ -99,57 +99,57 @@ export function Navigation() {
         {isOpen && (
           <motion.div
             initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
+            animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3 }}
             className="md:hidden border-t border-blue-100 bg-white"
           >
             <div className="py-4 space-y-4">
-              <a 
+              <a
                 href="#"
-                onClick={() => scrollToSection('hero')}
+                onClick={() => scrollToSection("hero")}
                 className="block px-4 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors cursor-pointer"
               >
-                Inicio
+                Home
               </a>
-              <a 
+              <a
                 href="#services"
-                onClick={() => scrollToSection('services')}
+                onClick={() => scrollToSection("services")}
                 className="block px-4 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors cursor-pointer"
               >
-                Servicios
+                Services
               </a>
-              <a 
+              <a
                 href="#"
-                onClick={() => scrollToSection('benefits')}
+                onClick={() => scrollToSection("benefits")}
                 className="block px-4 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors cursor-pointer"
               >
-                Beneficios
+                Benefits
               </a>
-              <a 
+              <a
                 href="#"
-                onClick={() => scrollToSection('testimonials')}
+                onClick={() => scrollToSection("testimonials")}
                 className="block px-4 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors cursor-pointer"
               >
-                Testimonios
+                Testimonials
               </a>
-              <a 
+              <a
                 href="#contact"
-                onClick={() => scrollToSection('contact')}
+                onClick={() => scrollToSection("contact")}
                 className="block px-4 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors cursor-pointer"
               >
-                Contacto
+                Contact
               </a>
               <div className="px-4 py-2 space-y-3">
                 <a href="tel:+14077707272" className="flex items-center text-blue-600 hover:text-blue-700 transition-colors">
                   <Phone className="w-4 h-4 mr-2" />
                   <span className="font-semibold">(407) 770-7272</span>
                 </a>
-                <Button 
-                  onClick={() => scrollToSection('contact')}
+                <Button
+                  onClick={() => scrollToSection("contact")}
                   className="w-full bg-blue-600 hover:bg-blue-700 text-white"
                 >
-                  Cotización Gratis
+                  Free Quote
                 </Button>
               </div>
             </div>

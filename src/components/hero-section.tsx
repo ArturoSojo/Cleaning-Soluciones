@@ -19,8 +19,8 @@ export function HeroSection() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="font-heading text-4xl lg:text-6xl font-extrabold text-gray-800 mb-6 leading-tight"
             >
-              Tu Hogar Siempre
-              <span className="text-blue-600 block">Impecable</span>
+              Your Home Always
+              <span className="text-blue-600 block">Spotless</span>
             </motion.h1>
 
             <motion.p
@@ -29,10 +29,9 @@ export function HeroSection() {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="font-body text-lg lg:text-xl text-gray-600 mb-8 max-w-lg mx-auto lg:mx-0 leading-relaxed"
             >
-              Servicios profesionales de limpieza para casas y apartamentos en Orlando, FL.
-              Calidad garantizada y precios competitivos.
+              Professional cleaning services for houses and apartments in Orlando, FL.
+              Guaranteed quality and competitive pricing.
             </motion.p>
-
 
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -43,17 +42,17 @@ export function HeroSection() {
               <Button
                 size="lg"
                 className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg text-lg"
-                onClick={() => window.open('https://wa.me/14077707272', '_blank')}
+                onClick={() => window.open("https://wa.me/14077707272", "_blank")}
               >
-                Solicita tu Cotización
+                Request Your Quote
               </Button>
               <Button
                 variant="outline"
                 size="lg"
                 className="border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 rounded-lg text-lg"
-                onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
+                onClick={() => document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })}
               >
-                Ver Servicios
+                View Services
               </Button>
             </motion.div>
           </motion.div>
@@ -67,7 +66,7 @@ export function HeroSection() {
             <div className="relative">
               <ImageWithFallback
                 src="/conny.png"
-                alt="Servicio profesional de limpieza"
+                alt="Professional cleaning service"
                 className="rounded-2xl shadow-2xl w-full h-auto"
               />
               <motion.div
@@ -78,7 +77,7 @@ export function HeroSection() {
               >
                 <div className="text-center">
                   <div className="text-3xl font-bold text-blue-600">5+</div>
-                  <div className="text-gray-600">Años de Experiencia</div>
+                  <div className="text-gray-600">Years of Experience</div>
                 </div>
               </motion.div>
             </div>

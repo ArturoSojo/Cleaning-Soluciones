@@ -5,47 +5,47 @@ import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 
 const testimonials = [
   {
-    name: "María González",
+    name: "Maria Gonzalez",
     location: "Orlando, FL",
     rating: 5,
-    comment: "Excelente servicio! Mi apartamento quedó impecable. El equipo es muy profesional y puntual. Definitivamente los recomiendo.",
-    avatar: "MG"
+    comment: "Excellent service! My apartment was left spotless. The team is professional, punctual, and I absolutely recommend them.",
+    avatar: "MG",
   },
   {
     name: "Robert Johnson",
     location: "Downtown Orlando",
     rating: 5,
-    comment: "I've been using Cleaning Soluciones for 6 months now. They're reliable, thorough, and my house always smells amazing after they're done.",
-    avatar: "RJ"
+    comment: "I've been using Cleaning Soluciones for 6 months. They're reliable, thorough, and my house always smells amazing after each visit.",
+    avatar: "RJ",
   },
   {
     name: "Carmen Rivera",
     location: "Lake Nona",
     rating: 5,
-    comment: "Después de una renovación, necesitaba una limpieza profunda. Hicieron un trabajo increíble eliminando todo el polvo y dejando mi casa perfecta.",
-    avatar: "CR"
+    comment: "After a renovation I needed a deep clean. They did an incredible job removing all the dust and left my home looking perfect.",
+    avatar: "CR",
   },
   {
     name: "Mike Davis",
     location: "Winter Park",
     rating: 5,
     comment: "Professional team, fair prices, and outstanding results. They pay attention to every detail. I wouldn't trust anyone else with my home.",
-    avatar: "MD"
+    avatar: "MD",
   },
   {
     name: "Ana Morales",
     location: "Dr. Phillips",
     rating: 5,
-    comment: "Como madre trabajadora, este servicio me ha cambiado la vida. Llego a casa y todo está perfecto. Vale cada centavo.",
-    avatar: "AM"
+    comment: "As a busy mom, this service has been life changing. I come home and everything is perfect. Worth every penny.",
+    avatar: "AM",
   },
   {
     name: "David Thompson",
     location: "College Park",
     rating: 5,
-    comment: "They use eco-friendly products which is important to me with kids and pets. Great service and peace of mind.",
-    avatar: "DT"
-  }
+    comment: "They use eco-friendly products, which matters to me with kids and pets. Great service and real peace of mind.",
+    avatar: "DT",
+  },
 ];
 
 export function TestimonialsSection() {
@@ -60,11 +60,10 @@ export function TestimonialsSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl font-bold text-gray-800 mb-4">
-            Lo que dicen nuestros clientes
+            What our clients say
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            La satisfacción de nuestros clientes es nuestra mejor carta de presentación. 
-            Lee las experiencias reales de familias en Orlando.
+            Client satisfaction is our best introduction. Read real experiences from families across Orlando.
           </p>
         </motion.div>
 
@@ -89,7 +88,7 @@ export function TestimonialsSection() {
                   >
                     <Quote className="w-8 h-8" />
                   </motion.div>
-                  
+
                   <div className="flex items-center mb-4">
                     <Avatar className="h-12 w-12 mr-4">
                       <AvatarImage src="" />
@@ -102,7 +101,7 @@ export function TestimonialsSection() {
                       <p className="text-gray-600 text-sm">{testimonial.location}</p>
                     </div>
                   </div>
-                  
+
                   <div className="flex mb-4">
                     {[...Array(testimonial.rating)].map((_, i) => (
                       <motion.div
@@ -116,7 +115,7 @@ export function TestimonialsSection() {
                       </motion.div>
                     ))}
                   </div>
-                  
+
                   <p className="text-gray-700 leading-relaxed">
                     "{testimonial.comment}"
                   </p>
@@ -125,7 +124,7 @@ export function TestimonialsSection() {
             </motion.div>
           ))}
         </div>
-        
+
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -135,9 +134,9 @@ export function TestimonialsSection() {
         >
           <div className="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-full">
             <Star className="w-5 h-5 text-yellow-400 fill-current mr-2" />
-            <span className="font-semibold">4.9/5 estrellas</span>
-            <span className="mx-2">•</span>
-            <span>100+ reseñas verificadas</span>
+            <span className="font-semibold">4.9/5 stars</span>
+            <span className="mx-2">-</span>
+            <span>100+ verified reviews</span>
           </div>
         </motion.div>
       </div>

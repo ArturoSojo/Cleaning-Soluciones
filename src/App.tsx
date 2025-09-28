@@ -17,15 +17,16 @@ export default function App() {
         <div id="hero">
           <HeroSection />
         </div>
+        <div id="gallery">
+          <GallerySection />
+        </div>
         <div id="services">
           <ServicesSection />
         </div>
         <div id="benefits">
           <BenefitsSection />
         </div>
-        <div id="gallery">
-          <GallerySection />
-        </div>
+
         <div id="testimonials">
           <TestimonialsSection />
         </div>

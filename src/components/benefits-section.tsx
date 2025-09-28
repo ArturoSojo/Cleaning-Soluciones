@@ -6,34 +6,34 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 const benefits = [
   {
     icon: CheckCircle,
-    title: "Garantía de Calidad",
-    description: "Satisfacción 100% garantizada o repetimos el servicio sin costo adicional."
+    title: "Quality Guarantee",
+    description: "100% satisfaction guaranteed or we repeat the service at no additional cost.",
   },
   {
     icon: Users,
-    title: "Personal Capacitado",
-    description: "Equipo profesional con experiencia y entrenamiento continuo en técnicas de limpieza."
+    title: "Trained Professionals",
+    description: "A skilled team with extensive experience and ongoing training in modern cleaning methods.",
   },
   {
     icon: Award,
-    title: "5+ Años de Experiencia",
-    description: "Respaldados por años de experiencia sirviendo a familias en Orlando."
+    title: "5+ Years of Experience",
+    description: "Trusted by families across Orlando thanks to years of consistent service.",
   },
   {
     icon: Clock,
-    title: "Horarios Flexibles",
-    description: "Nos adaptamos a tu horario para mayor comodidad y conveniencia."
+    title: "Flexible Scheduling",
+    description: "We work around your calendar to deliver convenience and reliability.",
   },
   {
     icon: Shield,
-    title: "Seguros y Bonded",
-    description: "Protección completa para tu tranquilidad y la seguridad de tu hogar."
+    title: "Licensed and Insured",
+    description: "Comprehensive protection for your peace of mind and the safety of your home.",
   },
   {
     icon: Leaf,
-    title: "Productos Eco-Friendly",
-    description: "Utilizamos productos de limpieza seguros para tu familia y mascotas."
-  }
+    title: "Eco-Friendly Products",
+    description: "We use safe cleaning solutions for your family, pets, and the planet.",
+  },
 ];
 
 export function BenefitsSection() {
@@ -48,13 +48,12 @@ export function BenefitsSection() {
             viewport={{ once: true }}
           >
             <h2 className="text-4xl font-bold text-gray-800 mb-6">
-              ¿Por qué elegir Cleaning Soluciones LLC?
+              Why choose Cleaning Soluciones LLC?
             </h2>
             <p className="text-xl text-gray-600 mb-8">
-              Nos diferenciamos por nuestro compromiso con la excelencia, 
-              la confiabilidad y la satisfacción total de nuestros clientes.
+              We stand out thanks to our commitment to excellence, reliability, and the complete satisfaction of every client.
             </p>
-            
+
             <div className="grid sm:grid-cols-2 gap-6">
               {benefits.map((benefit, index) => (
                 <motion.div
@@ -88,7 +87,7 @@ export function BenefitsSection() {
               ))}
             </div>
           </motion.div>
-          
+
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -99,10 +98,10 @@ export function BenefitsSection() {
             <div className="relative">
               <ImageWithFallback
                 src="https://images.unsplash.com/photo-1758273238698-c98a45a8df9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBhcGFydG1lbnQlMjBjbGVhbmluZ3xlbnwxfHx8fDE3NTg0OTM3MzN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                alt="Apartamento moderno limpio"
+                alt="Modern apartment after professional cleaning"
                 className="rounded-2xl shadow-2xl w-full h-auto"
               />
-              
+
               {/* Floating stats */}
               <motion.div
                 initial={{ scale: 0, opacity: 0 }}
@@ -113,10 +112,10 @@ export function BenefitsSection() {
               >
                 <div className="text-center">
                   <div className="text-3xl font-bold text-blue-600">100%</div>
-                  <div className="text-gray-600 text-sm">Satisfacción</div>
+                  <div className="text-gray-600 text-sm">Satisfaction</div>
                 </div>
               </motion.div>
-              
+
               <motion.div
                 initial={{ scale: 0, opacity: 0 }}
                 whileInView={{ scale: 1, opacity: 1 }}
@@ -126,7 +125,7 @@ export function BenefitsSection() {
               >
                 <div className="text-center">
                   <div className="text-3xl font-bold text-white">24h</div>
-                  <div className="text-blue-100 text-sm">Respuesta</div>
+                  <div className="text-blue-100 text-sm">Response</div>
                 </div>
               </motion.div>
             </div>
